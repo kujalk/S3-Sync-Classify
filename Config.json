@@ -1,14 +1,14 @@
 {
-    "S3Bucket":"jana-hotel",
+    "S3Bucket":"jana-match",
     "Sync":
     [
         {
-            "HotelName":"HotelABC",
-            "Folder": "D:\\Fayaz\\s3\\download\\HotelABC"
+            "MatchName":"MatchABC",
+            "Folder": "D:\\Temp\\s3\\download\\MatchABC"
         },
         {
-            "HotelName":"HotelXYZ",
-            "Folder": "D:\\Fayaz\\s3\\download\\HotelXYZ"
+            "MatchName":"MatchXYZ",
+            "Folder": "D:\\Temp\\s3\\download\\MatchXYZ"
         }
     ]
 }

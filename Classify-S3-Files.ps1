@@ -28,9 +28,9 @@ try
     foreach($Item in $Config.Sync)
     {
         $Bucket = "s3://{0}" -f $Config.S3Bucket
-        $IncludeFile = "*{0}*" -f $Item.HotelName
+        $IncludeFile = "*{0}*" -f $Item.MatchName
 
-        Write-Host "`n Working on Hotel : $($Item.HotelName)" -ForegroundColor Magenta
+        Write-Host "`n Working on Match : $($Item.MatchName)" -ForegroundColor Magenta
 
         if(Test-Path -path $Item.Folder)
         {
