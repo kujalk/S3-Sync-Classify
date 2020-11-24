@@ -1,0 +1,14 @@
+{
+    "S3Bucket":"jana-hotel",
+    "Sync":
+    [
+        {
+            "HotelName":"HotelABC",
+            "Folder": "D:\\Fayaz\\s3\\download\\HotelABC"
+        },
+        {
+            "HotelName":"HotelXYZ",
+            "Folder": "D:\\Fayaz\\s3\\download\\HotelXYZ"
+        }
+    ]
+}
